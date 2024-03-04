@@ -6,7 +6,7 @@ https://developer.webex.com/docs/getting-started
 
 Set your Access Token
 ```bash
-export ACCESS_TOKEN="hogehoge"
+export ACCESS_TOKEN="<replace your own access token>"
 ```
 
 # Manage your records
@@ -35,3 +35,8 @@ for recorded_json in `ls *.json`
    do cat ${recorded_json} | jq -r '.temporaryDirectDownloadLinks.recordingDownloadLink'
  done
 ```
+
+# References
+
+Webex recordings API  
+https://developer.webex.com/docs/api/v1/recordings

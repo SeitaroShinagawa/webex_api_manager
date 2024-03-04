@@ -2,7 +2,8 @@
 
 record_id=$1
 
-curl --request GET \
-   --header "Authorization: Bearer ${ACCESS_TOKEN}" \
-   https://webexapis.com/v1/recordings/${record_id} 
+# HOST_EMAIL="sei.shinagawa@is.naist.jp"
 
+curl -X DELETE \
+   --header "Authorization: Bearer ${ACCESS_TOKEN}" \
+   https://webexapis.com/v1/recordings/${record_id}

@@ -9,7 +9,3 @@ fi
 for record_id in `cat items.json | jq -r '.items[].id'`
    do bash retrieve_record.sh ${record_id} > record_info/${record_id}.json
  done
- 
-#  if [ -e items.json ];then
-#    rm items.json
-#  fi

@@ -9,6 +9,9 @@ Set your Access Token
 export ACCESS_TOKEN="<replace your own access token>"
 ```
 
+![image](https://github.com/SeitaroShinagawa/webex_api_manager/assets/7993233/9d8149ed-43cb-48c5-9f47-dff52a51728d)
+
+
 # Manage your records
 
 ## Listing records

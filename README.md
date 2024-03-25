@@ -24,8 +24,9 @@ source 1_set_access_token.sh <your access token>
 ## Listing records
 ```bash
 curl --request GET \
+   "https://webexapis.com/v1/recordings?max=10&from=2024-03-01&to=2024-03-02" \
    --header "Authorization: Bearer ${ACCESS_TOKEN}" \
-   https://webexapis.com/v1/recordings?max=10 > items.json
+    > items.json
 ```
 or
 ```bash
